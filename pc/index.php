@@ -272,16 +272,9 @@
         </div>
     </article><!-- #container -->
     <div id="flowerBack">
-        <div class="bestBg bestBg0" scrollSpeed="8" xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
-            <bogus xmlns="https://example.net/ns" dir="ltr">
-                <span xmlns="http://www.w3.org/1999/xhtml"></span>
-            </bogus>
-        </div>
-        <div class="bestBg bestBg1" scrollSpeed="8" xmlns="http://www.w3.org/1999/xhtml" dir="rtl">
+        <div class="bestBg bestBg0" scrollSpeed="8"></div>
+        <div class="bestBg bestBg1" scrollSpeed="8">
             <div class="butterfly1"></div>
-            <bogus xmlns="https://example.net/ns" dir="ltr">
-                <span xmlns="http://www.w3.org/1999/xhtml"></span>
-            </bogus>
         </div>
     </div>
     <!-- 팝업 공지 -->
