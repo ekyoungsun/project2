@@ -37,10 +37,10 @@ $(document).ready(function(){
         // 배경 움직임
         $(window).scroll(function(e){
             $(".bestBg1").each(function(){
-                $(this).css("margin-top", - $(window).scrollTop() / parseInt($(this).attr("scrollSpeed")));
+                $(this).css("margin-top", - $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
             });
             $(".bestBg0").each(function(){
-                $(this).css("margin-top", + $(window).scrollTop() / parseInt($(this).attr("scrollSpeed")));
+                $(this).css("margin-top", + $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
             });
         });
         // 슬라이드
