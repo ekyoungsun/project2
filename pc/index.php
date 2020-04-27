@@ -56,7 +56,8 @@
 <section id="mainWrap">
     <h2 class="hidden">메인 비주얼 영역</h2>
     <div class="mainSearch">
-        <input type="text" placeholder="브랜드 명이나 제품명을 입력하세요." class="searchBox"/>
+        <label for="search" class="hidden">제품명을 입력란</label>
+        <input type="text" name="search" placeholder="브랜드 명이나 제품명을 입력하세요." class="searchBox"/>
         <input type="submit" value="검색" class="searchBtn"/>
     </div>
     <div class="blackBox"></div>
