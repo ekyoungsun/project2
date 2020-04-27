@@ -168,8 +168,8 @@
 
                         </div>
                         <ul class="launPager">
-                            <li class="prev"><a data_btn="-1">이전</a></li>
-                            <li class="next"><a data_btn="1">다음</a></li>
+                            <li class="prev"><a data-btn="-1">이전</a></li>
+                            <li class="next"><a data-btn="1">다음</a></li>
                         </ul>
                     </div>
                     <div class="launBg"></div>

@@ -98,7 +98,7 @@ $(document).ready(function(){
         //      timer변수에 대입
 
         $(".launPager a").on("click", function(){ // 슬라이드 제어
-            goToSlide1(index1+eval($(this).attr("data_btn")))
+            goToSlide1(index1+eval($(this).attr("data-btn")))
         });
     }
     launImg();
