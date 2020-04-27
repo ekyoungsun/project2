@@ -272,8 +272,8 @@
         </div>
     </article><!-- #container -->
     <div id="flowerBack">
-        <div class="bestBg bestBg0" scrollSpeed="8"></div>
-        <div class="bestBg bestBg1" scrollSpeed="8">
+        <div class="bestBg bestBg0" data-scrollSpeed="8"></div>
+        <div class="bestBg bestBg1" data-scrollSpeed="8">
             <div class="butterfly1"></div>
         </div>
     </div>
