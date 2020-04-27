@@ -12,7 +12,13 @@
 .profile p { font-size: 60px; font-weight: 400; }
 .profile p span { font-size: 50px; font-weight: 100; margin-left: 20px; font-family: 'Montserrat Alternates', sans-serif; line-height: 104px; text-transform: capitalize; }
 .profile .intro::before { content: ""; display: block; width: 80px; height: 3px; background-color: #fff; }
-.profile .intro li { letter-spacing: 0.1em; padding-top: 25px; line-height: 2.5em; }
+.profile .intro > li { letter-spacing: 0.1em; padding-top: 25px; line-height: 2.5em; }
+.profile .intro li a { display: block; border-radius: 25px; background-color: #fff; color: #a127e7; font-family: 'Montserrat Alternates', sans-serif; font-weight: 800; text-align: center; transition-duration: 0.3s; }
+.profile .intro li a:hover { font-size: 22px; }
+
+.profile .intro .link { overflow: hidden; }
+.profile .intro .link li { float: left; width: 30%; }
+.profile .intro .link li:first-child { margin-right: 2%; }
 .profile .intro dt { font-weight: 700; font-size: 30px; }
 .profile .intro dd { font-weight: 100; font-size: 25px; line-height: 1.5em; }
 
