@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/xml; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <title>(주)씨이오인터내셔널</title>
+    <link type="text/css" href="../css/common.css" rel="stylesheet">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/plugins/jquery.bxslider.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="loginWrap">
+            <h1 class="loginLogo"><a href="../index.html">로고</a></h1>
+            <form action="joinReg.html">
+                <fieldset class="loginTxt">
+                    <legend>로그인 관련 폼</legend>
+                        <label for="id" class="labelTxt">아이디</label>
+                        <input type="text" id="loginId" name="id" placeholder="아이디"/><span class="warning">특수문자는 사용할 수 없습니다.</span>
+                        <label for="pw" class="labelTxt">비밀번호</label>
+                        <input type="password" id="pw" name="pw" placeholder="비밀번호"/>
+                        <input type="submit" title="로그인" value="로그인"/>
+                </fieldset>
+            </form>
+            <script>
+
+                function warning(o){
+
+                    var keyVal = '~`!@#$%^&*()'
+                    var ok = true
+
+                    for(var i in o){
+                        if(keyVal.indexOf(o[i])<0){
+                            ok = false
+                        }
+                    }return ok
+                }
+
+                $("#loginId").on("keydown", function(e){
+                    console.log(e.keyCode)
+
+                    if(warning($(this).val())==true){
+                        $(".warning").css(
+                            { display: 'block' }
+                        )}else{
+                        $(".wraning").css(
+                            { display: 'none' }
+                        )                 
+                    }
+
+//                        if(keyD==false){
+//                            $(".warning").css(
+//                                { display: 'block' }
+//                            )}else{
+//                            $(".wraning").css(
+//                                { display: 'none' }
+//                            )                 
+//                            }
+//                        
+                })
+
+            </script>
+            <div id="loginBtn">
+                <a href="#">아이디 찾기</a><span>|</span>
+                <a href="#">비밀번호 찾기</a><span>|</span>
+                <a href="join.html">회원가입</a>
+            </div>
+        </div>
+    </div><!-- #wrapper -->
+</body>
+</html>

@@ -1,0 +1,69 @@
+@charset "utf-8";
+.loginWrapper { height: 100%; overflow: hidden; }
+
+/* 약관동의 */
+.member_tab { padding: 30px 0; border-top: 1px solid #333; }
+.member_tab a { font-size: 24px; padding: 10px; margin: 0 10px; color: #aaa; }
+.member_tab a.on { color: #000; border-bottom: 2px solid #000; font-weight: bold; }
+.member_tab span { font-size: 24px; padding: 10px; margin: 0 10px;color: #000;font-weight: bold; }
+
+.join { text-align: left; }
+.join h4 { font-size: 15px; margin-top: 10px; }
+.join .policy { padding: 10px; overflow-y: scroll; height: 22px; margin: 10px 0; border: 1px solid #ccc; background-color: #f1f1f1; font-size: 12px; }
+.join .button { text-align: center; }
+.join .button .ok, .join .button button { display: inline-block; width: 150px; line-height: 24px; padding: 8px 0; border: none; background: #222242; color: #fff; font-size: 14px; cursor: pointer; }
+.join .button .cancel { display: inline-block; width: 150px; line-height: 24px; padding: 8px 0; border: none; background: #999; color: #fff; font-size: 14px; cursor: pointer; }
+
+/* 로그인 영역 */
+.loginWrap { width: 100%; height: 100%; background: url(../img/login_bg.jpg) center no-repeat; background-size: cover; position: relative; }
+.loginWrap > .wrap { width: 640px; height: 100%; margin: 0 auto; padding: 100px 0; }
+.loginWrap input { font-size: 20px; }
+.check { font-size: 12px; }
+.check input { margin-bottom: 2px; }
+.allcheck { display: block; background: #999; text-align: center; font-size: 14px; width: 250px; padding: 10px 27px; color: #fff !important; margin: 15px auto; }
+.warning { position: absolute; top: 26px; right: 30px; font-size: 16px; color: #cf6575; display: none; }
+.loginLogo a { display: block; }
+.loginLogo img { margin: 0 auto; }
+.labelTxt { display: none; }
+.loginTxt { margin: 72px 0; position: relative; }
+.loginTxt input { width: 610px; }
+.loginTxt input[type="text"],
+.loginTxt input[type="password"] { height: 77px; margin-bottom: 10px; padding-left: 30px; }
+.loginTxt input[type="submit"] { margin-top: 20px; width: 640px; height: 110px; background: url(../img/login_btn.png) no-repeat; font-size: 20px; font-weight: bold; color: #fff; cursor: pointer; }
+#loginBtn { text-align:  center; }
+#loginBtn p { display: inline; margin-right: 30px; }
+#loginBtn > a { font-size: 20px; line-height: 20px; color: #222242; font-weight: bold; }
+
+/* 회원가입 영역 */
+.joinBox { margin-top: 50px; }
+.joinBox input { height: 77px; padding-left: 30px; }
+.joinBox fieldset { margin-bottom: 10px; }
+.joinBox .nameBox { float: left; }
+.joinBox .nameBox1 { float: right; position: relative; }
+.idBox { position: relative; }
+.idBox input[type="text"] { width: 610px; }
+#loadtext { position: absolute; top: 3px; right: 5px; font-size: 12px; }
+.idBox input[type="button"] { padding-left: 0px; margin-left: 10px; width: 188px; background-color: #ccc; color: #333; }
+.pwBox input { width: 610px; }
+.pwBox .pwBg1 { background: #fff url(../img/login_pw_icon00.gif) right 30px center no-repeat; }
+.pwBox .pwBg2 { background: #fff url(../img/login_pw_icon01.gif) right 30px center no-repeat; }
+.pwBox .mb10 { margin-bottom: 10px; }
+.nameBox input { width: 285px; }
+#loadtext2 { position: absolute; top: 3px; right: 5px; font-size: 12px; }
+
+.genLb { display: inline-block; width: 20px; height: 20px; border: 0px; border-radius: 15px; background-color: #e5e5e5; cursor: pointer; margin: 29px 0; }
+.genTxt { font-size: 20px; line-height: 20px; margin: 0 20px 0 8px; color: #777; }
+.telBox { background-color: #fff; }
+.telBox select { width: 160px; border: 0px; background: #fff url(../img/join_btn.gif) right center no-repeat; font-size: 20px; margin: 0 30px; color: #777; }
+.telBox input { width: 150px; }
+.mailBox input { width: 277px; }
+.subMit input { padding-left: 0px; width: 640px; height: 110px; font-size: 20px; font-weight: bold; }
+.subMit input[type="reset"] { background: url(../img/login_btn_r.png) no-repeat; }
+.subMit input[type="button"] { color: #fff; background: url(../img/login_btn.png) no-repeat; }
+
+/* 회원정보 수정 영역 */
+.memberForm {  }
+.memberForm .idBox { background: #fff; height: 77px; padding-left: 30px; vertical-align: middle; position: relative; }
+.memberForm .idBox p { font-size: 20px; line-height: 73px; }
+.memberForm .idBox span { position: absolute; top: 3px; right: 5px; font-size: 12px; color: red; }
+.memberForm .nameBox input, .memberForm .telBox input, .memberForm .mailBox input { color: #777; }

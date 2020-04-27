@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/* layout */
+header { position: fixed; top: 0; right: 0; z-index: 70; width: 96%; padding: 2%; }
+header h1 { float: left; font-family: 'Montserrat Alternates', sans-serif; font-weight: 800; }
+header #menu { float: none; text-align: right; }
+header #menu li { display: inline-block; margin: 10px; border-radius: 10px; }
+header #menu li a { font-family: 'Montserrat Alternates', sans-serif; font-weight: 400; font-size: 24px; color: #fff; }
+header #menu li a::after { content: ""; display: block; width: 0%; height: 2px; background-color: #fff; transition-duration: 0.2s; }
+header #menu li.active a::after, header #menu li:hover a::after { width: 100%; }
+
+/* right nav */
+#fp-nav ul li a span, .fp-slidesNav ul li a span { background-color: #fff; }
+#fp-nav ul li .fp-tooltip { font-family: 'Montserrat Alternates', sans-serif; text-transform: uppercase; font-weight: 800; font-size: 12px; }
+
+
+/* 타이틀, 설명 */
+.section .title {  }
+.section .title dt, .section .title dd { font-weight: 100; }
+.section .title dt { font-size: 55px; line-height: 1.2em; text-transform: uppercase; border-bottom: 1px solid #fff; padding: 0 0 30px 0; }
+.section .title dd { font-size: 20px; margin: 30px 0 40px; letter-spacing: 0.03em; line-height: 1.5em; }
+
+/* view 버튼 */
+.section .view { width: 200px; height: 60px; }
+.section .view a { display: block; width: 200px; height: 60px; line-height: 60px; text-align: center; padding: 0 2%; background-color: #fff; font-family: 'Montserrat Alternates', sans-serif; text-transform: capitalize; font-weight: 600; font-size: 30px; transition-duration: 0.3s; }
+.section .view:hover a { font-size: 35px; }
+
+/* 제작기간, 제작스킬 */
+.section .content { clear: both; padding-top: 40px; letter-spacing: 0.025em; }
+.section .content dt { font-weight: 400; font-size: 22px; }
+.section .content dd { margin: 10px 0 20px; letter-spacing: 0.08em; font-weight: 100; line-height: 1.5em; }

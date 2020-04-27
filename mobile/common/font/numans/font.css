@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Numans-Regular';
+  src: url('Numans-Regular.eot');
+  src: url('Numans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('Numans-Regular.svg#Numans-Regular') format('svg'),
+       url('Numans-Regular.ttf') format('truetype'),
+       url('Numans-Regular.woff') format('woff'),
+       url('Numans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

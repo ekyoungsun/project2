@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'NotoSansKR-Regular-Alphabetic';
+  src: url('../font/noto/NotoSansKR-Regular-Alphabetic.eot');
+  src: local(※), url('../font/noto/NotoSansKR-Regular-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('../font/noto/NotoSansKR-Regular-Alphabetic.svg#NotoSansKR-Regular-Alphabetic') format('svg'),
+       url('../font/noto/NotoSansKR-Regular-Alphabetic.ttf') format('truetype'),
+       url('../font/noto/NotoSansKR-Regular-Alphabetic.woff') format('woff'),
+       url('../font/noto/NotoSansKR-Regular-Alphabetic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Medium-Alphabetic';
+  src: url('../font/noto/NotoSansKR-Medium-Alphabetic.eot');
+  src: local(※), url('../font/noto/NotoSansKR-Medium-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('../font/noto/NotoSansKR-Medium-Alphabetic.svg#NotoSansKR-Medium-Alphabetic') format('svg'),
+       url('../font/noto/NotoSansKR-Medium-Alphabetic.ttf') format('truetype'),
+       url('../font/noto/NotoSansKR-Medium-Alphabetic.woff') format('woff'),
+       url('../font/noto/NotoSansKR-Medium-Alphabetic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Light-Alphabetic';
+  src: url('../font/noto/NotoSansKR-Light-Alphabetic.eot');
+  src: local(※), url('../font/noto/NotoSansKR-Light-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('../font/noto/NotoSansKR-Light-Alphabetic.svg#NotoSansKR-Light-Alphabetic') format('svg'),
+       url('../font/noto/NotoSansKR-Light-Alphabetic.ttf') format('truetype'),
+       url('../font/noto/NotoSansKR-Light-Alphabetic.woff') format('woff'),
+       url('../font/noto/NotoSansKR-Light-Alphabetic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Bold-Alphabetic';
+  src: url('../font/noto/NotoSansKR-Bold-Alphabetic.eot');
+  src: local(※), url('../font/noto/NotoSansKR-Bold-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('../font/noto/NotoSansKR-Bold-Alphabetic.svg#NotoSansKR-Bold-Alphabetic') format('svg'),
+       url('../font/noto/NotoSansKR-Bold-Alphabetic.ttf') format('truetype'),
+       url('../font/noto/NotoSansKR-Bold-Alphabetic.woff') format('woff'),
+       url('../font/noto/NotoSansKR-Bold-Alphabetic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Black-Alphabetic';
+  src: url('../font/noto/NotoSansKR-Black-Alphabetic.eot');
+  src: local(※), url('../font/noto/NotoSansKR-Black-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('../font/noto/NotoSansKR-Black-Alphabetic.svg#NotoSansKR-Black-Alphabetic') format('svg'),
+       url('../font/noto/NotoSansKR-Black-Alphabetic.ttf') format('truetype'),
+       url('../font/noto/NotoSansKR-Black-Alphabetic.woff') format('woff'),
+       url('../font/noto/NotoSansKR-Black-Alphabetic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR-Thin-Alphabetic';
+  src: url('../font/noto/NotoSansKR-Thin-Alphabetic.eot');
+  src: local(※), url('../font/noto/NotoSansKR-Thin-Alphabetic.eot?#iefix') format('embedded-opentype'),
+       url('../font/noto/NotoSansKR-Thin-Alphabetic.svg#NotoSansKR-Thin-Alphabetic') format('svg'),
+       url('../font/noto/NotoSansKR-Thin-Alphabetic.ttf') format('truetype'),
+       url('../font/noto/NotoSansKR-Thin-Alphabetic.woff') format('woff'),
+       url('../font/noto/NotoSansKR-Thin-Alphabetic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Numans-Regular';
+  src: url('../font/numans/Numans-Regular.eot');
+  src: local(※), url('../font/numans/Numans-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/numans/Numans-Regular.svg#Numans-Regular') format('svg'),
+       url('../font/numans/Numans-Regular.ttf') format('truetype'),
+       url('../font/numans/Numans-Regular.woff') format('woff'),
+       url('../font/numans/Numans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

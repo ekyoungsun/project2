@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/* reset */
+html, body, h1, h2, h3, h4, h5, h6, a, p, ul, ol, dl, li, dt, dd, span, form, select, fieldset, legend, label, option, input, video, div, header, section, article, tabel, thead, tbody, tr, th, td, footer, i, address { padding: 0; margin: 0; white-space: normal; word-break: break-all; border: 0; outline: 0; vertical-align: top; color: #fff; } 
+html, body { width: 100%; height: 100%; }
+body { font-family: 'Noto Sans KR', sans-serif; font-size: 18px; color: #333; }
+fieldset { border: none; }
+legend { display: none; }
+img { border: none; display: block; vertical-align: top; }
+li { list-style: none; }
+a:link, a:visited, a:hover, a:active { text-decoration: none; color: #333; }
+table { border-collapse: collapse; border-spacing: 0; }
+select { -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; -ms-appearance: none; }
+select, input{ vertical-align: middle; }
+input { border: none; }
+input[type="button"] { cursor: pointer; }
+address{ font-style: normal; }
+caption { display: none; }
+.wrap { }
+

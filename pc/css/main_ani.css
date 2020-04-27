@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* : **<animation-name>** | **<animation-duration>** | <animation-timing-function> | <animation-delay> | <animation-iteration-count> | <animation-direction> */
+
+/* main */
+@keyframes launPrev {
+    0%{ right: 455px; }
+    10%{ right: 455px; }
+    30%{ right: 465px; }
+    35%{ right: 465px; }
+    50%{ right: 455px; }
+    70%{ right: 465px; }
+    75%{ right: 465px; }
+    100%{ right: 455px; }
+}
+.launPager > .prev { top: 0; right: 455px; animation-duration: 1.4s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.launPager > .prev:hover { animation-name: launPrev; }
+
+@keyframes launNext {
+    0%{ left: 54px; }
+    10%{ left: 54px; }
+    30%{ left: 64px; }
+    35%{ left: 64px; }
+    50%{ left: 54px; }
+    70%{ left: 64px; }
+    75%{ left: 64px; }
+    100%{ left: 54px; }
+}
+.launPager > .next { top: 30px; left: 54px; animation-duration: 1.4s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.launPager > .next:hover { animation-name: launNext; }
+
+@keyframes launBg {
+    0%{ transform: rotate(3deg) }
+    25%{ transform: rotate(-3deg) }
+    50%{ transform: rotate(3deg) }
+    75%{ transform: rotate(-3deg) }
+    100%{ transform: rotate(3deg) }
+}
+.launBg { animation: launBg 3s ease-in-out infinite; transform-origin: 50% 50%; transform: rotate(3deg); }
+
+@keyframes aboutAni {
+    0%{ margin-left: 37px; }
+    25%{ margin-left: 47px; }
+    50%{ margin-left: 37px; }
+    75%{ margin-left: 47px; }
+    100%{ margin-left: 37px; }
+}
+.aboutWrap a::after { animation-duration: 1.4s; animation-timing-function: ease-in-out; animation-iteration-count: infinite; }
+.aboutWrap a:hover::after { animation-name: aboutAni }
+
+@keyframes butterfly {
+    100%{ background-position: 0 -3696px; }
+}
+.butterfly { animation: butterfly steps(20) 1.1s infinite; }
+
+@keyframes butterfly1 {
+    100%{ background-position: 0 -1840px; }
+}
+.bestBg1 .butterfly1 { animation: butterfly1 steps(9) 0.8s infinite; }

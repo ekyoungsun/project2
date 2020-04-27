@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/* 타이핑 css */
+#fullpage .main-text { font-size: 60px; text-align: left; font-weight: 100;  line-height: 1.3em; /* writing-mode: tb-rl;  세로로 글쓰 */ }
+#fullpage .hi { position: absolute; bottom: 0; right: 3%; font-size: 300px; text-transform: uppercase; color: rgb(150, 237, 255); font-weight: 700; text-shadow: 10px 10px 0px rgb(255,62,196,1); letter-spacing: -0.025em; }
+
+#fullpage > div:nth-of-type(1) .wrap { margin-left: 5%; }
+#fullpage > div:nth-of-type(2) { background: url(../img/suneunkyoung.gif) right bottom no-repeat; background-size: 55%; }
+
+/* profile */
+.profile .wrap { margin-left: 6%; }
+.profile p { font-size: 60px; font-weight: 400; }
+.profile p span { font-size: 50px; font-weight: 100; margin-left: 20px; font-family: 'Montserrat Alternates', sans-serif; line-height: 104px; text-transform: capitalize; }
+.profile .intro::before { content: ""; display: block; width: 80px; height: 3px; background-color: #fff; }
+.profile .intro li { letter-spacing: 0.1em; padding-top: 25px; line-height: 2.5em; }
+.profile .intro dt { font-weight: 700; font-size: 30px; }
+.profile .intro dd { font-weight: 100; font-size: 25px; line-height: 1.5em; }
+
+/* pc */
+.pc .img img { width: 80%; margin: 0 auto; }
+.pc .view a { color: #222; }
+
+/* mobile */
+.mobile { position: relative; }
+.mobile .img img { width: 34%; margin: 0 auto; }
+.mobile .img::after { content: ""; display: block; width: 105px; height: 123px; background: url(../img/QRCodeImg.jpg) no-repeat; position: absolute; bottom: 0; right: 50%; margin-right: -280px; }
+
+/* responsive */
+.responsive .img img { width: 85%; margin: 7% auto; }
+.responsive .view a { color: #0b9abd; }
+
+/* wordpress */
+.wordpress .view a { color: #233e83; }
+
+
+
+@media screen and (max-width: 1280px){
+    .section .title dd { font-size: 18px; }
+    .responsive .title b { display: block; }
+}

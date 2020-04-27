@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1.39mm" height="1.39mm" viewBox="0 0 3.93 3.93">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>close</title>
+  <g>
+    <rect class="a" x="102.75" y="148.77" width="5.26" height="0.3" transform="translate(-28.82 181.79) rotate(-135)"/>
+    <rect class="a" x="102.75" y="148.77" width="5.26" height="0.3" transform="translate(-177.86 -28.82) rotate(-45)"/>
+  </g>
+</svg>

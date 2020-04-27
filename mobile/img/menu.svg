@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1.39mm" height="1.4mm" viewBox="0 0 3.94 3.96">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>menu</title>
+  <g>
+    <rect class="a" width="3.94" height="0.3"/>
+    <rect class="a" y="1.83" width="3.94" height="0.3"/>
+    <rect class="a" y="3.66" width="3.94" height="0.3"/>
+  </g>
+</svg>

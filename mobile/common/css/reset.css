@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+* { margin: 0; padding: 0; -webkit-text-size-adjust: none; }
+
+html, body, h1, h2, h3, h4, h5, h6, a, p, ul, ol, dl, li, dt, dd, span, form, select, fieldset, legend, label, option, input, video, div, header, section, nav, article, tabel, thead, tbody, tr, th, td, footer, i, address { padding: 0px; margin: 0px; white-space: normal; word-break: break-all; } 
+
+body { font-family: 'NotoSansKR-Regular-Alphabetic', sans-serif; font-size: 14px; color: #333; }
+section, nav, article, aside, hgroup, header, footer { display: block }
+legend, caption { display: none; clear: both; }
+img { max-width: 100%; }
+img, fieldset { border: none; vertical-align: top; }
+input { border: none; border-radius: 0px; outline: none; }
+select, input{ vertical-align: middle; }
+select { -webkit-appearance: none; }
+input, textarea, select, button, table { font-size: inherit; font-family: inherit; line-height: inherit; }
+textarea { resize: none; }
+label { cursor: pointer; }
+li { list-style: none; }
+a { color: inherit; }
+a:link, a:visited, a:hover, a:active { text-decoration: none; color: #333; }
+em, i, address { font-style: normal; font-weight: normal; }
+
+.hidden { display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff; }
+#skipNav { position: fixed; width: 100%; overflow: hidden; z-index: 99999; }
+#skipNav a { display: block; height: 1px; margin-bottom: -1px; overflow: hidden; text-align: center; text-decoration: none; color: #333; font-size: 16px; }
+#wrap { width: 100%; height: 100%; overflow: hidden; }
+
+@media screen and ( max-width: 480px ){
+    #wrap { min-width: 320px; }
+}
