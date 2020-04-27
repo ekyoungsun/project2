@@ -60,7 +60,7 @@
         <input type="submit" value="검색" class="searchBtn"/>
     </div>
     <div class="blackBox"></div>
-    <video id="video" autoplay muted loop="100">
+    <video id="video" autoplay muted loop>
         <source src="video/videoplayback.mp4" type="video/mp4">
     </video>
 </section>
@@ -129,7 +129,7 @@
                 <div class="bestPager bx-pager">
                     <div class="progress"><span></span></div>
                     <ul class="bx-pager">
-                        <li><a data-slide-index="0"class="active"><i>01</i></a></li>
+                        <li><a data-slide-index="0" class="active"><i>01</i></a></li>
                         <li><a data-slide-index="1"><i>02</i></a></li>
                         <li><a data-slide-index="2"><i>03</i></a></li>
                     </ul>
