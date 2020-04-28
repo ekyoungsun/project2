@@ -191,7 +191,10 @@
         </article>
         <? include ("common/inc/bottom.php"); ?>
         <div class="mainSearch">
-            <div><input type="text" placeholder="브랜드 명이나 제품명을 입력하세요." class="searchBox"/></div>
+            <div>
+                <label for="search" class="hidden">제품명을 입력란</label>
+                <input type="text" id="search" placeholder="브랜드 명이나 제품명을 입력하세요." class="searchBox">
+            </div>
             <input type="submit" value="검색" class="searchBtn"/>
         </div>
     </div><!-- #wrapper -->
