@@ -31,8 +31,8 @@
                 <li><h3><a href="#none">ceo mall</a></h3></li>
             </ul>
             <ul class="navLogin">
-                <li><a href="sub/login.html">로그인</a></li>
-                <li><a href="sub/join.html">회원가입</a></li>
+                <li><a href="sub/login/login.html">로그인</a></li>
+                <li><a href="sub/login/join.html">회원가입</a></li>
             </ul>
             <a href="#none" class="close siteOff siteBtn">닫기</a>
         </nav>
