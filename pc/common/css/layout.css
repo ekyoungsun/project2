@@ -34,10 +34,10 @@ display: block; height: auto; padding: 5px 0; background: #fff; }
 #nav .twoDepth li { margin-bottom: 20px; }
 #nav .twoDepth li h4 { font-weight: normal; }
 #nav .twoDepth li h4 a { display: block; }
-#nav .oneDepth li:nth-of-type(1) .twoDepth li h4 a { padding-left: 38.3px; padding-right: 38px; } 
-#nav .oneDepth li:nth-of-type(2) .twoDepth li h4 a { padding-left: 18px; padding-right: 19px; } 
-#nav .oneDepth li:nth-of-type(3) .twoDepth li h4 a { padding-left: 34px; padding-right: 34px; } 
-#nav .oneDepth li:nth-of-type(4) .twoDepth li h4 a { padding-left: 14px; padding-right: 14px; } 
+#nav .oneDepth li:nth-of-type(1) .twoDepth li h4 a { padding-left: 35px; padding-right: 35px; }
+#nav .oneDepth li:nth-of-type(2) .twoDepth li h4 a { padding-left: 16px; padding-right: 15px; }
+#nav .oneDepth li:nth-of-type(3) .twoDepth li h4 a { padding-left: 30px; padding-right: 31px; }
+#nav .oneDepth li:nth-of-type(4) .twoDepth li h4 a { padding-left: 11px; padding-right: 11px; }
 #nav .twoDepth li h4 a span { color: #fff; }
 .headerUp #nav .twoDepth li h4 a span { color: #333; }
 .menuBox { position: absolute; left: 0; top: 120px; background: #111; border-bottom: 1px solid #444; opacity: 0.9; width: 100%; height: 330px; display: none; z-index: -3; }
