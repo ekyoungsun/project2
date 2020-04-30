@@ -7,7 +7,7 @@
     include "common/inc/data.php"; 
 ?>
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>(주)씨이오인터내셔널</title>
