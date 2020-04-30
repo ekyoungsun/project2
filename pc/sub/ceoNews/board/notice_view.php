@@ -92,7 +92,7 @@
             <div class="postPage">
                 <div id="view_button">
                     <a href="../../../subForm.php?idx=ceoNews&pages=notice&table=<?=$table?>&page=<?=$page?>" class="postList">목록</a>&nbsp;
-                    <? if($userid == $item_id || $userid = "admin" || $userlevel == 1){ ?>
+                    <? if($userid == $item_id || $userid = "admin" || $userlevel == 9){ ?>
                     <a href="write_form.php?table=<?=$table?>&mode=modify&num=<?=$num?>&page=<?=$page?>" class="postList">수정</a>&nbsp;
                     <a href="javascript:del('delete.php?table=<?=$table?>&num=<?=$num?>')" class="postList">삭제</a>&nbsp;
                     <? } ?>
