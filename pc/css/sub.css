@@ -64,9 +64,9 @@
 .prodDataList { margin-top: 30px; padding: 35px 10px; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; }
 .prodDataList li { line-height: 60px; background: url(../img/sub_product_icon.gif) 146px center no-repeat; }
 .prodDataList dl { overflow: hidden; }
-.prodDataList dt, .prodDataList dd { font-style: italic; }
-.prodDataList dt { float: left; width: 145px; text-transform: uppercase; font-weight: bold; color: #666; }
-.prodDataList dd { float: right; margin-left: 90px; letter-spacing: -0.09em; }
+.prodDataList dt, .prodDataList dd { float: left; font-style: italic; }
+.prodDataList dt { width: 145px; text-transform: uppercase; font-weight: bold; color: #666; }
+.prodDataList dd { margin-left: 90px; letter-spacing: -0.09em; }
 .prodDataList .dd { line-height: 30px; }
 .prodInformation { margin-top: 100px; height: 1155px; position: relative; overflow: hidden; }
 .soapInformation { height: 990px; }
