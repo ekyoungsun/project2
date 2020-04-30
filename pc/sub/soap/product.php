@@ -21,7 +21,7 @@
                         <li>
                             <dl>
                                 <dt>middle</dt>
-                                <dd class="dd">그라스 로즈 센티폴리아, 복숭아 나무잎, <br>매그놀리아</dd>
+                                <dd class="dd">그라스 로즈 센티폴리아, 복숭아<br>나무잎, 매그놀리아</dd>
                             </dl>
                         </li>
                         <li>

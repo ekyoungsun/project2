@@ -218,13 +218,13 @@
 .mediaBox li:nth-of-type(3n) .mediaImg::after { background: url(../img/sub_media_bg_bottom02.png) no-repeat; }
 .mediaTxt { overflow: hidden; margin-top: 18px; }
 .mediaTxt h4 { float: left; width: 137px; height: 44px; background: url(../img/sub_media_title.gif) no-repeat; text-align: center; text-transform: uppercase; font-size: 16px; line-height: 44px; font-weight: 700; letter-spacing: -1px; }
-.mediaTxt p { float: left; font-size: 20px; line-height: 44px; font-weight: normal; letter-spacing: -1px; margin-left: 20px; color: #666; }
+.mediaTxt p { float: left; font-size: 20px; line-height: 44px; font-weight: normal; letter-spacing: -0.1em; margin-left: 19px; color: #666; }
 
 /* 회사개요 영역 */
 .about { background: url(../img/sub_about_bg00.jpg) left bottom no-repeat; padding: 100px 0; }
 .about .wrap { overflow: hidden; }
 .subAboutBox { width: 652px; float: right; padding-top: 30px; }
-.subAboutTxt { font-family: 'Numans', sans-serif; font-size: 80px; }
+.subAboutTxt { font-family: 'Numans', sans-serif; font-size: 80px; line-height: 80px; }
 .subAboutTxt span { font-size: 50px; }
 .subAboutS { font-weight: bold; margin: 20px 0 35px; }
 .subAboutS i { font-size: 26px; color: #444; }
@@ -235,14 +235,14 @@
 .ceo { height: 800px; padding: 100px 0; }
 .ceo .wrap { overflow: hidden; }
 .ceoBox { float: left; width: 785px; }
-.ceoTxt { width: 625px; height: 162px; font-size: 30px; color: #666; line-height: 40px; font-weight: bold; letter-spacing: -1px; position: relative; padding: 49px 0 0 45px; }
+.ceoTxt { width: 625px; height: 162px; font-size: 30px; color: #666; line-height: 40px; font-weight: bold; letter-spacing: -0.09em; position: relative; padding: 49px 0 0 45px; }
 .ceoTxt::before, .ceoTxt::after { position: absolute; width: 38px; height: 30px; }
 .ceoTxt::before { content: ""; top: 0; left: 0; background: url(../img/sub_ceo_bg01.gif) no-repeat; }
 .ceoTxt::after { content: ""; bottom: 0; right: 68px; background: url(../img/sub_ceo_bg02.gif)  no-repeat; }
 .ceoTxt span { color: #222242; }
 .subCeoP { margin-top: 53px; }
-.subCeoP p { font-size: 20px; line-height: 31px; text-align: justify; letter-spacing: -1px; margin-bottom: 30px; }
-.subSign { width: 440px; font-size: 20px; color: #000; line-height: 41px; position: relative; }
+.subCeoP p { font-size: 20px; line-height: 1.7em; text-align: justify; letter-spacing: -0.09em; margin-bottom: 30px; }
+.subSign { width: 450px; font-size: 20px; color: #000; line-height: 41px; letter-spacing: -0.05em; position: relative; }
 .subSign span { font-weight: bold; }
 .subSign span::after { content: ""; position: absolute; top: 0; right: 0; width: 112px; height: 41px; background: url(../img/sub_ceo_img03.gif) no-repeat; }
 .ceoImg { float: right; position: relative; width: 415px; height: 722px; }
@@ -289,11 +289,11 @@
 .historyWrap .middle .bB { position: absolute; bottom: 0; left: 50%; margin-left: -906px; width: 1812px; height: 489px; background: url(../img/sub_history_frame04.png) no-repeat; z-index: 86; }
 
 
-.cap { position: absolute; top: 0; right: 0; width: 224px; height: 198px; background: url(../img/sub_history_icon00.png) no-repeat; }
-.glass { position: absolute; bottom: 0; right: 0; width: 196px; height: 227px; background: url(../img/sub_history_icon01.png) no-repeat; }
-.perfIcon1 { position: absolute; bottom: 0; left: 0; width: 157px; height: 272px; background: url(../img/sub_history_icon03.png) no-repeat; }
+.cap { position: absolute; top: 0; right: 0; width: 194px; height: 172px; background: url(../img/sub_history_icon00.png) no-repeat; background-size: contain; }
+.glass { position: absolute; bottom: 0; right: 0; width: 153px; height: 175px; background: url(../img/sub_history_icon01.png) no-repeat; background-size: contain; }
+.perfIcon1 { position: absolute; bottom: 0; left: 0; width: 137px; height: 237px; background: url(../img/sub_history_icon03.png) no-repeat; background-size: contain; }
 .perfIcon2 { position: absolute; bottom: 0; left: 50%; margin-left: -40px; width: 80px; height: 235px; background: url(../img/sub_history_icon02.png) no-repeat; background-size: contain; }
-.timeIcon { position: absolute; bottom: 0; right: 0; width: 173px; height: 229px; background: url(../img/sub_history_icon04.png) no-repeat; }
+.timeIcon { position: absolute; bottom: 0; right: 0; width: 138px; height: 183px; background: url(../img/sub_history_icon04.png) no-repeat;     background-size: contain; }
 .historyList { width: 778px; margin: 300px auto 100px; overflow: hidden; }
 .historyList a { float: left; margin: 0 20px; display: block; font-size: 30px; line-height: 100px; text-align: center; font-family: 'Numans', sans-serif; font-weight: normal; color: #555; }
 .historyList .active::before, .historyList .active::after { content: ""; display: inline-block; width: 54px; height: 34px; vertical-align: middle; }
@@ -311,7 +311,7 @@
 .historyTxt dl { margin-bottom: 15px; }
 .historyTxt dl:last-child { margin-bottom: 0; }
 .historyTxt dl dt { font-size: 24px; font-weight: 700; }
-.historyTxt dl dd { font-size: 20px; }
+.historyTxt dl dd { font-size: 19px; letter-spacing: -0.05em; }
 
 /* 조직도 영역 */
 .ceoChart { padding: 100px 0; text-align: center; color: #fff; }
