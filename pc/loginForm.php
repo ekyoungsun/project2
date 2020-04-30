@@ -11,6 +11,7 @@
 <head>
     <meta charset="UTF-8">
     <title>(주)씨이오인터내셔널</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet"href="common/css/common.css">
     <link rel="stylesheet"href="css/login.css">
