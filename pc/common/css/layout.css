@@ -15,7 +15,7 @@ display: block; height: auto; padding: 5px 0; background: #fff; }
 
 .headerWrap { width: 100%; z-index: 999; top: 0; transition-duration: 0.7s; position: fixed; border-bottom: 1px solid rgba(255,255,255,0.3); background-color: rgba(0,0,0,0.2); box-sizing: border-box; height: 120px; }
 .headerWrap h1 a { position: absolute; top: 35px; left: 0; display: block; width: 107px; height: 47px; font-size: 0px; background-image: url(../img/logo.png); }
-.headerUp { position: fixed; height: 100px; background-color: #fff !important; box-shadow: 0 0 12px 0 rgba(0,0,0,0.7); border-bottom: 1px solid rgba(255,255,255,0.3) !important;}
+.headerUp { position: fixed; height: 100px; background-color: #fff !important; box-shadow: 0 0 5px 0 rgba(0,0,0,0.2); border-bottom: 1px solid rgba(255,255,255,0.3) !important;}
 .backColor { background-color: #111; border-bottom: 1px solid #222; }
 .headerUp h1 a { top: 25px; background-position: -107px top; }
 #nav .oneDepth { /*overflow: hidden;*/ margin-left: 160px; }
