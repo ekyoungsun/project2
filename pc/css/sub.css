@@ -28,7 +28,7 @@
 .perfList li { float: left; margin-left: 1px; background: #f6f6f6; }
 .perfList li:first-child { margin-left: 0; }
 .perfList li select { height: 68px; border: 0; background: #f6f6f6 url(../img/bottom_btn.gif) right center no-repeat; margin: 0 30px; color: #333; }
-.perfList li select, .brandSearch input { font-size: 18px; }
+.perfList li select, .brandSearch input { font-size: 18px; background: url(../img/join_btn.gif) right 15px center no-repeat; }
 .perfList li:nth-of-type(1) select { width: 294px; }
 .perfList li:nth-of-type(2) select { width: 174px; }
 .perfList li:nth-of-type(3) select { width: 164px; }
