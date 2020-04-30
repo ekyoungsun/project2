@@ -66,7 +66,7 @@
 .prodDataList dl { overflow: hidden; }
 .prodDataList dt, .prodDataList dd { float: left; font-style: italic; }
 .prodDataList dt { width: 145px; text-transform: uppercase; font-weight: bold; color: #666; }
-.prodDataList dd { margin-left: 90px; letter-spacing: -0.08em; }
+.prodDataList dd { margin-left: 90px; letter-spacing: -0.09em; }
 .prodDataList .dd { line-height: 30px; }
 .prodInformation { margin-top: 100px; height: 1155px; position: relative; overflow: hidden; }
 .soapInformation { height: 990px; }
