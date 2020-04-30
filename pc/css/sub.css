@@ -28,13 +28,13 @@
 .perfList li { float: left; margin-left: 1px; background: #f6f6f6; }
 .perfList li:first-child { margin-left: 0; }
 .perfList li select { height: 68px; border: 0; background: #f6f6f6 url(../img/bottom_btn.gif) right center no-repeat; margin: 0 30px; color: #333; }
-.perfList li select, .brandSearch input { font-size: 18px; background: url(../img/join_btn.gif) right 15px center no-repeat; }
+.perfList li select, .brandSearch input {  }
 .perfList li:nth-of-type(1) select { width: 294px; }
 .perfList li:nth-of-type(2) select { width: 174px; }
 .perfList li:nth-of-type(3) select { width: 164px; }
 .perfList li:nth-of-type(4) select { width: 124px; }
 .perfBox2 { margin-top: 1px; }
-.perfBox2 input { width: 969px; height: 68px; padding-left: 30px; color: #333; }
+.perfBox2 input { width: 969px; height: 68px; padding-left: 30px; color: #333; background-color: #f6f6f6; }
 .brandSearch input[type="submit"] { float: left; width: 200px; height: 138px; background-color: #1d1e1f; margin-left: 1px; font-size: 20px; color: #fff; font-weight: bold; cursor: pointer; }
 .labelTxt { display: none; }
 
