@@ -4,7 +4,7 @@
             <div>
                 <ul class="brandPerfumeList brandsoapumeList"> 
                     <script>
-                        var txt = ["랑팔라투스","프라고나르"]
+                        var txt = ["랑팔라투스","프라고라르"]
 
                         $.each(txt, function(i, ee){
                             // 태그 객체 추가
