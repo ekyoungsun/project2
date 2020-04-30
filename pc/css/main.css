@@ -37,10 +37,10 @@
 .bestRolling .women { top: 0; left: 0; }
 .bestRolling .man { bottom: 0; right: 0; }/* 수정해야됌 */
 .bextTxtBox { position: relative; }
-.bestTxt { position: absolute; bottom: 0; left: 0; width: 450px; font-size: 28px; color: #444; letter-spacing: -0.80px; text-align: center; }
+.bestTxt { position: absolute; bottom: 0; left: 0; width: 450px; font-size: 24px; color: #444; letter-spacing: -0.80px; text-align: center; }
 .bestTxt span { display: block; font-family: 'Noto Sans KR', sans-serif; font-weight: 100; font-size: 20px; color: #868686; }
-.bextTxtBox .lp { letter-spacing: -3px; }
-.bextTxtBox .lp span { letter-spacing: -0.80px; }
+.bextTxtBox .lp { letter-spacing: -0.05em; }
+.bextTxtBox .lp span { letter-spacing: -0.01em; }
 .bestPager { position: absolute; bottom: 120px; left: 50%; width: 269px; margin-left: -135px; z-index: 5; }
 .bestPager ul { text-align: center; position: relative; z-index: 10; }
 .bestPager .progress { display: block; height: 2px; background: #ccc; position: absolute; top: 28px; left: 0; right: 0; overflow: hidden; }
