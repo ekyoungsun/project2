@@ -13,7 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
     <link rel="stylesheet" type="text/css" href="common/css/common.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-<!--    <script src="js/plugins/prefixfree.min.js"></script>-->
+    <script src="js/plugins/prefixfree.min.js"></script>
     <script src="js/plugins/jquery-1.12.4.min.js"></script>
     <script src="js/plugins/jquery-migrate-1.4.1.min.js"></script>
     <script src="js/plugins/jquery-ui.min.js"></script>
