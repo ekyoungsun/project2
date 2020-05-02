@@ -2,46 +2,46 @@
 
 
 /* 로그인 영역 */
-.loginWrap { height: 100%; padding: 110px 20px; background-size: cover; position: relative; overflow: hidden; background-color: #e5e5e5; position: relative; }
+.loginWrap { height: 100%; padding: 150px 20px; background-size: cover; position: relative; overflow: hidden; background-color: #e5e5e5; position: relative; }
 .loginWrap::before, .loginWrap::after { content: ""; width: 100%; position: absolute; z-index: 0; }
-.loginWrap::before { left: 0; top: 0; height: 350px; background: url(../img/login_bg01.jpg) left top no-repeat; background-size: 320px auto; }
+.loginWrap::before { left: 0; top: 0; height: 195px; background: url(../img/login_bg01.jpg) left top no-repeat; background-size: contain; }
 .loginWrap::after { right: 0; bottom: 0; height: 287px; background: url(../img/login_bg02.jpg) right bottom no-repeat; background-size: 320px auto; }
-.loginWrap input { font-size: 20px; }
+.loginWrap input { font-size: 17px; }
 .warning { position: absolute; top: 26px; right: 30px; font-size: 16px; color: #cf6575; display: none; }
 .loginLogo { position: relative; z-index: 1; text-indent: -9999px; }
-.loginLogo a { display: block; width: 225px; height: 92px; background: url(../img/login_logo.png) no-repeat; margin: 0 auto; }
+.loginLogo a { display: block; width: 189px; height: 77px; background: url(../img/login_logo.png) no-repeat; margin: 0 auto; background-size: contain; }
 .loginWrap form { position: relative; z-index: 1; }
 .labelTxt { display: none; }
-.loginTxt { margin: 72px 0 30px; position: relative; }
+.loginTxt { margin: 40px 0; position: relative; }
 .loginTxt input { width: 100%; }
 .loginTxt input[type="text"],
-.loginTxt input[type="password"] { height: 60x; margin-bottom: 10px; text-indent: 20px; display: block; }
-.loginTxt input[type="submit"] { margin-top: 10px; height: 110px; background: url(../img/login_btn.png) no-repeat; font-size: 16px; font-weight: bold; color: #fff; background-size: 100% 100px; }
+.loginTxt input[type="password"] { height: 60px; margin-bottom: 10px; text-indent: 20px; display: block; }
+.loginTxt input[type="submit"] { height: 80px; background: url(../img/login_btn.png) no-repeat; font-size: 16px; font-weight: bold; color: #fff; background-size: 100% 80px; }
 #loginBtn { text-align: center; position: relative; z-index: 1; }
-#loginBtn > a { font-size: 16px; line-height: 20px; color: #666; }
-#loginBtn span { width: 20px; height: 20px; margin: 0 20px; font-size: 20px; line-height: 20px; color: #aaa; }
+#loginBtn > a { line-height: 20px; color: #666; }
+#loginBtn span { width: 20px; height: 20px; margin: 0 10px; font-size: 20px; line-height: 20px; color: #aaa; }
 
 /* 회원가입 영역 */
 .joinBox { margin-top: 50px; }
-.joinBox input { width: 100%; height: 77px; text-indent: 20px; margin-bottom: 10px; }
+.joinBox input { width: 100%; height: 60px; text-indent: 20px; margin-bottom: 10px; }
 .idBox input[type="text"] { width: 100%; text-indent: 20px; }
-.idBox input[type="button"] { color: #333; background: url(../img/login_btn_r.png) no-repeat; background-size: 100% 90px; height: 100px; text-indent: 0; }
+.idBox input[type="button"] { color: #333; background: url(../img/login_btn_r.png) no-repeat; background-size: 100% 70px; height: 70px; text-indent: 0; }
 .pwBox input { width: 100%; text-indent: 20px; }
-.pwBox .pwBg1 { background: #fff url(../img/login_pw_icon00.gif) right 20px center no-repeat; }
-.pwBox .pwBg2 { background: #fff url(../img/login_pw_icon01.gif) right 20px center no-repeat; }
+.pwBox .pwBg1 { background: #fff url(../img/login_pw_icon00.gif) right 20px center no-repeat; background-size: 25px; }
+.pwBox .pwBg2 { background: #fff url(../img/login_pw_icon01.gif) right 20px center no-repeat; background-size: 25px; }
 .pwBox .mb10 { margin-bottom: 10px; }
 .nameBox input {  }
-.genBox { width: 100%; height: 77px; background-color: #fff; float: right; overflow: hidden; margin-bottom: 10px; }
-.genBox .labelTxt { display: block; font-size: 20px; color: #777; margin: 0 60px 0 20px; }
-.genBox label { float: left; line-height: 77px; }
+.genBox { width: 100%; height: 60px; background-color: #fff; float: right; overflow: hidden; margin-bottom: 10px; }
+.genBox .labelTxt { display: block; font-size: 16px; color: #777; margin: 0 60px 0 20px; }
+.genBox label { float: left; line-height: 60px; }
 .genBox input[type="radio"]{ display: none; }
-.genLb { display: inline-block; width: 20px; height: 20px; border: 0px; border-radius: 15px; background-color: #e5e5e5; cursor: pointer; margin: 29px 0; }
+.genLb { display: inline-block; width: 20px; height: 20px; border: 0px; border-radius: 15px; background-color: #e5e5e5; cursor: pointer; margin: 20px 0; }
 .genBox input[type="radio"]:checked + .genLb { background-color: #333; }
-.genTxt { font-size: 20px; line-height: 20px; margin: 0 20px 0 8px; color: #777; }
+.genTxt { font-size: 16px; line-height: 20px; margin: 0 20px 0 8px; color: #777; }
 .telBox { background-color: #fff; margin-bottom: 10px; }
-.telBox select { float: left; height: 77px; width: 70px; border: 0px; background: #fff url(../img/join_btn.gif) right center no-repeat; font-size: 20px; margin: 0 10px 0 20px; color: #777; }
+.telBox select { float: left; height: 60px; width: 70px; border: 0; background: #fff url(../img/join_btn.gif) right center no-repeat; font-size: 20px; margin: 0 10px 0 20px; color: #777; }
 .telBox input { width: 60%; margin-bottom: 0 !important; }
 .mailBox input { width: 100%; text-indent: 20px; }
-.subMit input { padding-left: 0px; width: 100%; height: 100px; font-size: 20px; font-weight: bold; margin-bottom: 0px !important; }
-.subMit input[type="reset"] { background: url(../img/login_btn_r.png) no-repeat; background-size: 100% 90px; }
-.subMit input[type="submit"] { color: #fff; background: url(../img/login_btn.png) no-repeat; background-size: 100% 90px; }
+.subMit input { padding-left: 0; width: 100%; height: 70px; font-size: 16px; font-weight: bold; margin-bottom: 0 !important; text-indent: 0; }
+.subMit input[type="reset"] { background: url(../img/login_btn_r.png) no-repeat; background-size: 100% 70px; }
+.subMit input[type="submit"] { color: #fff; background: url(../img/login_btn.png) no-repeat; background-size: 100% 70px; }
