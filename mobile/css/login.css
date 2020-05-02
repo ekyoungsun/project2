@@ -15,8 +15,8 @@
 .loginTxt { margin: 72px 0 30px; position: relative; }
 .loginTxt input { width: 100%; }
 .loginTxt input[type="text"],
-.loginTxt input[type="password"] { height: 77px; margin-bottom: 10px; text-indent: 20px; display: block; }
-.loginTxt input[type="submit"] { margin-top: 10px; height: 110px; background: url(../img/login_btn.png) no-repeat; font-size: 20px; font-weight: bold; color: #fff; background-size: 100% 100px; }
+.loginTxt input[type="password"] { height: 60x; margin-bottom: 10px; text-indent: 20px; display: block; }
+.loginTxt input[type="submit"] { margin-top: 10px; height: 110px; background: url(../img/login_btn.png) no-repeat; font-size: 16px; font-weight: bold; color: #fff; background-size: 100% 100px; }
 #loginBtn { text-align: center; position: relative; z-index: 1; }
 #loginBtn > a { font-size: 16px; line-height: 20px; color: #666; }
 #loginBtn span { width: 20px; height: 20px; margin: 0 20px; font-size: 20px; line-height: 20px; color: #aaa; }
