@@ -23,7 +23,6 @@ $(document).ready(function(){
         var screenHeight = $(window).height();
         
         $(window).resize(function(){  // 웹브라우저 크기 조절시 반응하는 이벤트 메소드()
-
             if(screenSize){
                 $("#video").show();
                 $("#video").attr('src', 'video/videoplayback.mp4');
@@ -36,13 +35,24 @@ $(document).ready(function(){
     function bestScript(){
         // 배경 움직임
         $(window).scroll(function(e){
-            $(".bestBg1").each(function(){
-                $(this).css("margin-top", - $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
-            });
-            $(".bestBg0").each(function(){
-                $(this).css("margin-top", + $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
-            });
+            var bestDiv = $("#bestWrap");
+
+//            if($(this).scrollTop() >= Math.ceil(bestDiv.offset().top)){
+//                    $(".bestBg1").each(function(){
+//                        $(this).css("top", - $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
+//                    });
+//                    $(".bestBg0").each(function(){
+//                        $(this).css("top", + $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
+//                    });
+//            }
+                $(".bestBg1").each(function(){
+                    $(this).css("top", - $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
+                });
+                $(".bestBg0").each(function(){
+                    $(this).css("top", + $(window).scrollTop() / parseInt($(this).attr("data-scrollSpeed")));
+                });
         });
+
         // 슬라이드
         $(".twoslider").bxSlider({
             mode:"fade",
