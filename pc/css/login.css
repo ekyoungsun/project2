@@ -17,7 +17,7 @@
 /* 로그인 영역 */
 .loginWrap { width: 100%; height: 100%; background: url(../img/login_bg.jpg) center no-repeat; background-size: cover; position: relative; }
 .loginWrap > .wrap { width: 640px; height: 100%; margin: 0 auto; padding: 100px 0; }
-.loginWrap input { font-size: 20px; }
+.loginWrap input { font-size: 18px; }
 .check { font-size: 12px; }
 .check input { margin-bottom: 2px; }
 .allcheck { display: block; background: #999; text-align: center; font-size: 14px; width: 250px; padding: 10px 27px; color: #fff !important; margin: 15px auto; }
@@ -36,7 +36,7 @@
 
 /* 회원가입 영역 */
 .joinBox { margin-top: 50px; }
-.joinBox input { height: 77px; padding-left: 30px; }
+.joinBox input { height: 70px; padding-left: 30px; }
 .joinBox fieldset { margin-bottom: 10px; }
 .joinBox .nameBox { float: left; }
 .joinBox .nameBox1 { float: right; position: relative; }
@@ -53,14 +53,14 @@
 
 .genLb { display: inline-block; width: 20px; height: 20px; border: 0px; border-radius: 15px; background-color: #e5e5e5; cursor: pointer; margin: 29px 0; }
 .genTxt { font-size: 20px; line-height: 20px; margin: 0 20px 0 8px; color: #777; }
-.telBox { background-color: #fff; }
-.telBox select { width: 160px; border: 0px; background: #fff url(../img/join_btn.gif) right center no-repeat; font-size: 20px; margin: 0 30px; color: #777; }
+.telBox { background-color: #fff; clear: both; }
+.telBox select { width: 160px; border: 0px; background: #fff url(../img/join_btn.gif) right center no-repeat; font-size: 18px; margin: 0 30px; color: #777; }
 .telBox input { width: 150px; }
 .mailBox input { width: 277px; }
-.subMit input { padding-left: 0px; width: 640px; height: 110px; font-size: 20px; font-weight: bold; }
+.subMit input { padding-left: 0px; width: 640px; height: 90px; font-size: 18px; font-weight: bold; }
 .subMit input[type="reset"] { background: url(../img/login_btn_r.png) no-repeat; }
 .subMit input[type="button"] { color: #fff; background: url(../img/login_btn.png) no-repeat; }
-
+.subMit input[type="reset"], .subMit input[type="button"] { background-size: 640px 100%; }
 /* 회원정보 수정 영역 */
 .memberForm {  }
 .memberForm .idBox { background: #fff; height: 77px; padding-left: 30px; vertical-align: middle; position: relative; }
