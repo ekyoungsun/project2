@@ -20,7 +20,7 @@
                     </ul>
                 </li>
                 <? } ?>
-                <li><h3><a href="#none">ceo mall</a></h3></li>
+                <li><h3><a href="http://www.ceobeaute.kr">ceo mall</a></h3></li>
             </ul>
             <ul class="navLogin">
                 <li><a href="sub/login/login.html">로그인</a></li>

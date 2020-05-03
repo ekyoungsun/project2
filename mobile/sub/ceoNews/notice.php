@@ -9,31 +9,31 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="tit"><a href="ceonews_post.html">&#91;공지&#93; 2020년 2월부터 쿠폰전송방식이 변경됩니다</a></td>
+                    <td class="tit"><a href="?idx=ceoNews&page=post">&#91;공지&#93; 2020년 2월부터 쿠폰전송방식이 변경됩니다</a></td>
                     <td>20-01-20</td>
                 </tr>
                 <tr>
-                    <td class="tit"><a href="ceonews_post.html">클린 클래식 웜 코튼, 올리브영 어워즈 &amp; 페스타 향수 부문 1위!</a></td>
+                    <td class="tit"><a href="?idx=ceoNews&page=post">클린 클래식 웜 코튼, 올리브영 어워즈 &amp; 페스타 향수 부문 1위!</a></td>
                     <td>19-12-03</td>
                 </tr>
                 <tr>
-                    <td class="tit"><a href="ceonews_post.html">씨이오몰, 4711 아쿠아 콜로니아 인텐스 런칭 기념 EVENT</a></td>
+                    <td class="tit"><a href="?idx=ceoNews&page=post">씨이오몰, 4711 아쿠아 콜로니아 인텐스 런칭 기념 EVENT</a></td>
                     <td>19-12-03</td>
                 </tr>
                 <tr>
-                    <td class="tit"><a href="ceonews_post.html">프랑스 천연 비누 '랑팔라투르', 롯데몰 수지점 팝업 EVENT</a></td>
+                    <td class="tit"><a href="?idx=ceoNews&page=post">프랑스 천연 비누 '랑팔라투르', 롯데몰 수지점 팝업 EVENT</a></td>
                     <td>19-11-29</td>
                 </tr>
                 <tr>
-                    <td class="tit"><a href="ceonews_post.html">#할리우드 잇 걸 #아리아나 그란데 프래그런스</a></td>
+                    <td class="tit"><a href="?idx=ceoNews&page=post">#할리우드 잇 걸 #아리아나 그란데 프래그런스</a></td>
                     <td>19-11-01</td>
                 </tr>
                 <tr>
-                    <td class="tit"><a href="ceonews_post.html">씨이오몰, 존바바토스 x 닉 조나스 실버 런칭 기념 EVENT</a></td>
+                    <td class="tit"><a href="?idx=ceoNews&page=post">씨이오몰, 존바바토스 x 닉 조나스 실버 런칭 기념 EVENT</a></td>
                     <td>19-11-01</td>
                 </tr>
                 <tr>
-                    <td class="tit"><a href="ceonews_post.html">씨이오몰, 쥬시꾸뛰르 위 글로우 출시 기념 EVENT</a></td>
+                    <td class="tit"><a href="?idx=ceoNews&page=post">씨이오몰, 쥬시꾸뛰르 위 글로우 출시 기념 EVENT</a></td>
                     <td>19-10-01</td>
                 </tr>
             </tbody>

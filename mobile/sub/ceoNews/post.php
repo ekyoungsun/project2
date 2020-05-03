@@ -19,6 +19,6 @@
                 <dd><a href="#">클린 클래식 웜 코튼, 올리브영 어워즈 &amp; 페스타 향수 부문 1위!</a></dd>
             </dl>
         </div>
-        <a href="#" class="postList">목록</a>
+        <a href="?idx=ceoNews&page=notice" class="postList">목록</a>
     </div>
 </div>
