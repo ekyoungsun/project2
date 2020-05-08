@@ -19,7 +19,7 @@
     <script src="js/plugins/jquery-ui.min.js"></script>
     <script src="js/plugins/jquery.bxslider.min.js"></script>
     <script src="js/plugins/swiper.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="common/js/common.js"></script>
     <script src="js/main.js"></script>
     <script>
     // <![CDATA[

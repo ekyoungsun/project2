@@ -5,28 +5,28 @@ $(document).ready(function(){
     function scrollTopWrap(){
         $(window).scroll(function(){
 //            console.log($(window).scrollTop())
-            if($(this).scrollTop() > 30) { 
+            if($(this).scrollTop() > 30) {
                 $(".subHeader").addClass("subHeaderOn");
                 $(".twoConts").show();
-            }else{ 
+            }else{
                 $(".subHeader").removeClass("subHeaderOn");
                 $(".twoConts").hide();
             }
         });
-        
+
         $(".now").on("click", function(){
             $(".twoConts ul").slideToggle();
         });
-        
+
     };
     scrollTopWrap();
-//------------------------------------------------------------------//    
+//------------------------------------------------------------------//
     // site script
     function siteMap(){
-        
+
         var evenT = ['mousewheel','touchmove'];
         $.each(evenT, function(i, ee){
-        
+
             $(".siteOn").on("click", function(){
                 $(".siteMap").show("slide", { direction: "right" }, 600, 'easeOutCubic');
                 $(".shadow").fadeIn("fade");
@@ -37,9 +37,9 @@ $(document).ready(function(){
                 $(".shadow").fadeOut("fade");
                 $("#wrapper").unbind(ee);
             });
-        
+
         });
-        
+
         var onoff = [false,false,false,false];
         var arrcount = onoff.length;
 //        console.log(arrcount);
@@ -49,14 +49,14 @@ $(document).ready(function(){
             //$('#gnb .depth1 ul').hide();
             $(this).parent('h3').next('ul').slideDown('slow');
             $(this).parents('.siteList').siblings('li').find('ul').slideUp('fast');
-             for(var i=0; i<arrcount; i++) onoff[i]=false; 
-             onoff[ind]=true;   
+             for(var i=0; i<arrcount; i++) onoff[i]=false;
+             onoff[ind]=true;
 
            }else{
-             $(this).parent('h3').next('ul').slideUp('fast'); 
-             onoff[ind]=false;   
+             $(this).parent('h3').next('ul').slideUp('fast');
+             onoff[ind]=false;
            }
-        });   
+        });
     };
     siteMap();
 //------------------------------------------------------------------//

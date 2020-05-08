@@ -16,7 +16,7 @@
     <script src="js/plugins/jquery-migrate-1.4.1.min.js"></script>
     <script src="js/plugins/jquery-ui.min.js"></script>
     <script src="js/plugins/jquery.bxslider.min.js"></script>
-    <script src="js/common.js"></script>
+    <script src="common/js/common.js"></script>
     <script src="js/sub.js"></script>
 </head>
 <body>

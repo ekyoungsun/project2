@@ -27,7 +27,7 @@
         </ul>
     </div>
     <div class="add">
-        <p>(주)씨이오인터내셔널<i>/</i>대표자명 : 김유성<br>서울시 강남구 논현로 163길14 청원빌딩 2,3,4,5층</p>
+        <address>(주)씨이오인터내셔널<i>/</i>대표자명 : 김유성<br>서울시 강남구 논현로 163길14 청원빌딩 2,3,4,5층</address>
     </div>
     <div class="copy">
         <p>&copy; (주)씨이오인터내셔널. ALL RIGHTS RESERVED.</p>
