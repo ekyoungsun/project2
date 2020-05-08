@@ -34,10 +34,10 @@ display: block; height: auto; padding: 5px 0; background: #fff; }
 #nav .twoDepth li { margin-bottom: 20px; }
 #nav .twoDepth li h4 { font-weight: normal; }
 #nav .twoDepth li h4 a { display: block; }
-#nav .oneDepth li:nth-of-type(1) .twoDepth li h4 a { padding-left: 35px; padding-right: 35px; }
-#nav .oneDepth li:nth-of-type(2) .twoDepth li h4 a { padding-left: 16px; padding-right: 15px; }
-#nav .oneDepth li:nth-of-type(3) .twoDepth li h4 a { padding-left: 30px; padding-right: 31px; }
-#nav .oneDepth li:nth-of-type(4) .twoDepth li h4 a { padding-left: 11px; padding-right: 11px; }
+#nav .oneDepth li:nth-of-type(1) .twoDepth li h4 a { -ms-padding-left: 35px; -ms-padding-right: 35px; padding-left: 36px; padding-right: 36px;  }
+#nav .oneDepth li:nth-of-type(2) .twoDepth li h4 a { -ms-padding-left: 16px; -ms-padding-right: 15px; padding-left: 18px; padding-right: 18px;  }
+#nav .oneDepth li:nth-of-type(3) .twoDepth li h4 a { -ms-padding-left: 30px; -ms-padding-right: 31px; padding-left: 34px; padding-right: 34px;  }
+#nav .oneDepth li:nth-of-type(4) .twoDepth li h4 a { -ms-padding-left: 11px; -ms-padding-right: 11px; padding-left: 11px; padding-right: 11px;  }
 #nav .twoDepth li h4 a span { color: #fff; }
 .headerUp #nav .twoDepth li h4 a span { color: #333; }
 .menuBox { position: absolute; left: 0; top: 120px; background: #111; border-bottom: 1px solid #444; opacity: 0.9; width: 100%; height: 330px; display: none; z-index: -3; }
@@ -51,8 +51,8 @@ display: block; height: auto; padding: 5px 0; background: #fff; }
 .infoNav #topLogin { float: left; }
 .infoNav #topLogin li, .infoNav #topLogin li a { font-size: 17px; }
 .infoNav #topLogin li a { padding: 0 !important; display: block; color: #fff; }
-.infoNav #topLogin li { float: left; padding: 46px 0 38px 15px; transition-duration: 1s; color: #fff; }
-.headerUp .infoNav #topLogin li { padding: 33px 0 44px 15px; }
+.infoNav #topLogin li { float: left; padding: 46px 15px 38px 0; transition-duration: 1s; color: #fff; }
+.headerUp .infoNav #topLogin li { padding: 33px 15px 44px 0; }
 .headerUp .infoNav #topLogin li, .headerUp .infoNav #topLogin li a { color: #333; }
 .infoNav > a { float: right; margin: 51px 0 0 30px; }
 .infoNav .topLogin { font-size: 20px; text-transform: uppercase; }
@@ -60,8 +60,8 @@ display: block; height: auto; padding: 5px 0; background: #fff; }
 .headerUp .infoNav .topLogin { color: #333; }
 .topLogin::after { display: inline-block; width: 14px; height: 16px; content: "";  margin-left: 9px; background-image: url(../img/top_login_icon.png); }
 .headerUp .topLogin::after { background-position: 14px 0; }
-.allMenu { display: block; width: 15px; height: 16px; font-size: 0; margin-top: 2px; background-image: url(../img/siteMap.png); transition-duration: 1s; }
-.headerUp .allMenu { background-position: 15px top; margin: 38px 0 0 30px; }
+.allMenu { width: 15px; height: 16px; font-size: 0; background-image: url(../img/siteMap.png); transition-duration: 1s; margin-top: 51px; }
+.headerUp .allMenu { background-position: 15px top; margin-top: 38px; }
 .siteBtn { cursor: pointer; }
 /* 사이트맵 영역 */
 .siteMap { display: none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: url(../img/site_bg.jpg) no-repeat; background-size: cover; z-index: 9999; }

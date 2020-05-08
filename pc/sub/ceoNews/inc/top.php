@@ -85,7 +85,7 @@
                         <? } ?>
                     </ul>
 <!--                    <a class="topLogin" href="loginForm.php">login</a>-->
-                    <a class="allMenu siteBtn" href="#none">전체메뉴</a>
+                    <button class="allMenu siteBtn">전체메뉴</button>
                 </div>
             </nav>
         </div>
@@ -128,7 +128,7 @@
                     </ul>
                 </li>
             </ul>
-            <a class="close siteBtn">닫기</a>
+            <button class="close siteBtn">닫기</button>
         </div>
     </div>
 <? 

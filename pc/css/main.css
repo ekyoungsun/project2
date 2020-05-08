@@ -73,7 +73,7 @@
 .launBox span { font-family: 'Numans', sans-serif; font-size: 20px; letter-spacing: -0.80px; }
 .launPager { margin-top: 40px; position: relative; z-index: 10; }
 .launPager li { position: absolute; width: 54px; height: 24px; }
-.launPager li button { display: block; width: 54px; height: 24px; background: url(../img/Laun_prev.png) no-repeat; cursor: pointer; text-indent: -9999px; }
+.launPager li button { width: 54px; height: 24px; background: url(../img/Laun_prev.png) no-repeat; cursor: pointer; text-indent: -9999px; }
 .launPager li:last-child button { background: url(../img/Laun_next.png) no-repeat; }
 
 .launBg { position: absolute; top: 400px; right: 0; width: 359px; height: 291px; background: url(../img/main_Laun_bg01.png) no-repeat; }
