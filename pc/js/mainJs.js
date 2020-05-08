@@ -107,7 +107,7 @@ $(document).ready(function(){
         timer1 = setInterval(nextSlide1, 5000);
         //      timer변수에 대입
 
-        $(".launPager a").on("click", function(){ // 슬라이드 제어
+        $(".launPager button").on("click", function(){ // 슬라이드 제어
             goToSlide1(index1+eval($(this).attr("data-btn")))
         });
     }
@@ -173,7 +173,7 @@ $(document).ready(function(){
             // 태그 객체 추가
             var newLi = $("<li>");
             var newA = $("<a>");
-            newA.attr("href","subForm.php?idx=perfume&page=brand");
+            newA.attr("href","subForm.php?idx=perfume&pages=brand");
             // img 반복
             newA.css({
                 backgroundImage: "url('img/sub_brand_img"+(i+1)+".gif')",
@@ -196,7 +196,10 @@ $(document).ready(function(){
     botBanner();
 //------------------------------------------------------------------// 
     // scroll color script
+    // ie에 구동시 사이트가 많이 무거워진다. 왜 그럴까.. 이유를 찾지 못함
+    // 수정하려면 레이아웃을 뜯어 고쳐야하나..
     function setupColors(){
+        // color를 배열로 만들어서
         var rawColors = ["#fff", "#fff", "#fff", "#fff", "#dadf7b", "#90e4e2"];
         var topHeight = $("#bgWrap").offset().top;
         if($(window).width() <= topHeight){

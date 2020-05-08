@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="common/css/common.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main_ani.css">
-    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/plugins/jquery-1.12.4.min.js"></script>
     <script src="js/plugins/jquery-ui.min.js"></script>
     <script src="js/plugins/jquery-migrate-1.4.1.min.js"></script>
@@ -170,8 +170,8 @@
 
                         </div>
                         <ul class="launPager">
-                            <li class="prev"><a data-btn="-1">이전</a></li>
-                            <li class="next"><a data-btn="1">다음</a></li>
+                            <li class="prev"><button data-btn="-1">이전</button></li>
+                            <li class="next"><button data-btn="1">다음</button></li>
                         </ul>
                     </div>
                     <div class="launBg"></div>
