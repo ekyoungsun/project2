@@ -1,12 +1,13 @@
 $(document).ready(function(){
     function fullSlider(){
         new fullpage('#fullpage', {
-            sectionsColor: ['#a127e7', '#a127e7', '#1c1c1c', '#333', '#0b9abd', '#233e83'],
-            anchors: ['home', 'profile', 'pcweb', 'mobileweb', 'responsive', 'wordpress'],
+            sectionsColor: ['#a127e7', '#a127e7', '#1c1c1c', '#333', '#0b9abd', '#233e83', '#a127e7'],
+            anchors: ['home', 'profile', 'pcweb', 'mobileweb', 'responsive', 'wordpress', 'etc'],
 //            navigation: true,
 //            navigationTooltips: [ 'home', 'profile', 'pcweb', 'mobileweb', 'responsive', 'wordpress'],
             showActiveTooltip: true,
-            menu: '#menu'
+            menu: '#menu',
+            scrollOverflow: true
         });
     }
     fullSlider();

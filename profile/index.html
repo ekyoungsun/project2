@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>선은경의 profile</title>
     <link rel="stylesheet" href="css/plugins/fullpage.css">
     <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="css/plugins/masonry.css">
     <link rel="stylesheet" href="css/common.css">
     <script src="js/plugins/jquery-1.12.4.min.js"></script>
     <script src="js/plugins/jquery-ui.min.js"></script>
@@ -13,6 +14,8 @@
     <script src="js/plugins/bootstrap.min.js"></script>
     <script src="js/plugins/fullpage/fullpage.js"></script>
     <script src="js/plugins/fullpage/jquery.fullpage.extensions.min.js"></script>
+    <script src="js/plugins/fullpage/scrolloverflow.min.js"></script>
+    <script src="js/plugins/masonry-docs.min.js"></script>
     <script src="js/plugins/typer.js"></script>
     <script src="js/common.js"></script>
     <!--[if lt IE 9]> 
@@ -33,6 +36,7 @@
             <li data-menuanchor="mobileweb"><h2><a href="#mobileweb">MobileWeb</a></h2></li>
             <li data-menuanchor="responsive"><h2><a href="#responsive">Responsive</a></h2></li>
             <li data-menuanchor="wordpress"><h2><a href="#wordpress">WordPress</a></h2></li>
+            <li data-menuanchor="etc"><h2><a href="#etc">etc</a></h2></li>
         </ul>
     </header>
     <div id="fullpage">
@@ -179,6 +183,91 @@
                         </dd>
                     </dl>
                 </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide etc" id="slide1">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <dl>
+                        <dt>etc</dt>
+                        <dd>pc sian</dd>
+                    </dl>
+                    <div class="duo example">
+                        <div class="duo__cell example__demo">
+                            <div class="grid grid--images" data-js="imagesloaded-progress">
+                                <div class="grid-sizer"></div>
+                                <script>
+                                    for(var i = 0; i < 45; i++ ){
+                                        var newDiv = $("<div>");
+                                        newDiv.addClass("grid-image-item");
+                                        var newImg = $("<img>");
+                                        newImg.attr("src", "img/etc/etc_pc_img"+(i+1)+".jpg")
+                                        newDiv.append(newImg)
+                                        $(".grid").append(newDiv)
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+            <div class="slide etc" id="slide2">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <dl>
+                        <dt>etc</dt>
+                        <dd>mobile sian</dd>
+                    </dl>
+                    <div class="duo example">
+                        <div class="duo__cell example__demo">
+                            <div class="grid grid--images grid1" data-js="imagesloaded-progress">
+                                <div class="grid-sizer grid-sizer1"></div>
+                                <script>
+                                    for(var i = 0; i < 26; i++ ){
+                                        var newDiv = $("<div>");
+                                        newDiv.addClass("grid-image-item");
+                                        newDiv.addClass("grid-image-item1");
+                                        var newImg = $("<img>");
+                                        newImg.attr("src", "img/etc/etc_mobile_img"+(i+1)+".jpg")
+                                        newDiv.append(newImg)
+                                        $(".grid1").append(newDiv)
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+            <div class="slide etc" id="slide3">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <dl>
+                        <dt>etc</dt>
+                        <dd>design</dd>
+                    </dl>
+                    <div class="duo example">
+                        <div class="duo__cell example__demo">
+                            <div class="grid grid--images grid2" data-js="imagesloaded-progress">
+                                <div class="grid-sizer grid-sizer2"></div>
+                                <script>
+                                    for(var i = 0; i < 18; i++ ){
+                                        var newDiv = $("<div>");
+                                        newDiv.addClass("grid-image-item");
+                                        newDiv.addClass("grid-image-item2");
+                                        var newImg = $("<img>");
+                                        newImg.attr("src", "img/etc/etc_design_img"+(i+1)+".jpg")
+                                        newDiv.append(newImg)
+                                        $(".grid2").append(newDiv)
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1"></div>
             </div>
         </div>
     </div>

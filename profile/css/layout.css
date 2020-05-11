@@ -1,8 +1,9 @@
 @charset "utf-8";
 
 /* layout */
-header { position: fixed; top: 0; right: 0; z-index: 70; width: 96%; padding: 2%; }
+header { position: fixed; top: 0; right: 0; z-index: 70; width: 100%; padding: 2%; transition-delay: 1s; }
 header h1 { float: left; font-family: 'Montserrat Alternates', sans-serif; font-weight: 800; }
+.headerUp { background-color: #fff; }
 header #menu { float: none; text-align: right; }
 header #menu li { display: inline-block; margin: 10px; border-radius: 10px; }
 header #menu li a { font-family: 'Montserrat Alternates', sans-serif; font-weight: 400; font-size: 24px; color: #fff; }

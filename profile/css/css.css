@@ -36,9 +36,15 @@
 .responsive .view a { color: #0b9abd; }
 
 /* wordpress */
+.wordpress .img img { width: 80%; margin: 0 auto; }
 .wordpress .view a { color: #233e83; }
 
-
+/* etc */
+.etc {  }
+.etc dl { padding: 12% 0 5%; text-align: center; font-family: 'Montserrat Alternates', sans-serif; font-weight: 400; }
+.etc dl dt { font-size: 40px; }
+.etc dl dd { font-size: 30px; text-transform: uppercase; }
+.etc li img { width: 100%; }
 
 @media screen and (max-width: 1280px){
     .section .title dd { font-size: 18px; }
