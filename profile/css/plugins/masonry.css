@@ -1,6 +1,7 @@
 /*-------------------------------------------------------------------*/
-.grid-image-item, .grid--images .grid-sizer { width: 20%; }
+.grid-image-item, .grid--images .grid-sizer { width: 25%; }
 .grid-image-item1, .grid--images .grid-sizer1 { width: 16.6% !important; }
+.grid-image-item1, .grid--images .grid-sizer1 { width: 20% !important; }
 .grid-image-item { float: left; margin-bottom: 25px; }
 .grid-image-item1 { margin-bottom: 15px; }
 .grid-image-item2 { margin-bottom: 10px; }
