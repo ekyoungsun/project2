@@ -24,7 +24,7 @@
 
 /* best 영역 */
 #bestWrap { height: 100%; }
-.mainTitle { font-family: 'Numans',sans-serif; font-size: 52px; line-height: 52px; letter-spacing: -0.80px; margin: 95px 0 50px; }
+.mainTitle { font-family: 'Numans',sans-serif; font-size: 52px; line-height: 52px; letter-spacing: -0.025em; margin: 95px 0 50px; }
 .mainTitle span { display: block; font-size: 34px; color: #777; }
 .best, .launching { min-height: 849px; padding: 120px 0; }
 .best { background: url(../img/main_best_bg00.png) center 440px no-repeat; }

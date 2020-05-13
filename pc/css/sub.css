@@ -60,7 +60,7 @@
 .prodImg .bx-pager .active { width: 23px; background: url(../img/on.png) no-repeat; }
 .prodTxt { float: right; width: 531px; }
 .prodTxt .prodTitle { width: 202px; height: 62px; line-height: 62px; text-align: center; background: url(../img/sub_product_title.gif) no-repeat; font-size: 19px; font-weight: bold; text-transform: uppercase; margin: 20px 0; }
-.prodTxt .prodBigTxt { font-size: 36px; line-height: 45px; font-weight: 100; text-transform: uppercase;  letter-spacing: -2px; }
+.prodTxt .prodBigTxt { font-size: 36px; line-height: 45px; font-weight: 100; text-transform: uppercase;  letter-spacing: -0.07em; }
 .prodDataList { margin-top: 30px; padding: 35px 10px; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; }
 .prodDataList li { line-height: 60px; background: url(../img/sub_product_icon.gif) 146px center no-repeat; }
 .prodDataList dl { overflow: hidden; }
@@ -83,7 +83,7 @@
 .prodList li { float: left; margin-left: 45px; text-align: center; }
 .prodList li:first-child { margin-left: 0; }
 .prodList li a { display: block; }
-.prodList li a:hover .prodListTxt p:last-child { text-decoration: underline; }
+.prodList li a:hover .prodListTxt strong { text-decoration: underline; }
 .prodListImg { position: relative; display: block; }
 .prodListImg::before,
 .prodListImg::after { content: ""; position: absolute; left: 0; width: 370px; height: 30px; z-index: 1; }
@@ -93,9 +93,8 @@
 .prodListImg::after { bottom: 0; background: url(../img/sub_product_bottom00.png) no-repeat; }
 .prodList li:nth-of-type(2n) .prodListImg::after { background: url(../img/sub_product_bottom01.png) no-repeat; }
 .prodList li:nth-of-type(3n) .prodListImg::after { background: url(../img/sub_product_bottom02.png) no-repeat; }
-.prodListTxt { text-transform: uppercase; }
-.prodListTxt p:first-child { font-size: 18px; color: #999; margin: 25px 0 15px; }
-.prodListTxt p:last-child { font-size: 20px; color: #666; line-height: 26px; letter-spacing: -1px; }
+.prodListTxt { text-transform: uppercase; font-size: 18px; color: #999; margin: 25px 0 15px; }
+.prodListTxt strong { font-size: 20px; color: #666; line-height: 26px; letter-spacing: -0.03em; font-weight: 100; display: block; margin-top: 10px; }
 
 
 

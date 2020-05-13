@@ -4,8 +4,8 @@
             <div class="prodData">
                 <div class="prodImg">
                     <ul>
-                        <li><img src="img/sub_product_soap00.jpg" alt=""></li>
-                        <li><img src="img/sub_product_soap01.jpg" alt=""></li>
+                        <li><img src="img/sub_product_soap00.jpg" alt="프라고나르 마 로즈 비누"></li>
+                        <li><img src="img/sub_product_soap01.jpg" alt="프라고나르 마 로즈 비누"></li>
                     </ul>
                 </div>
                 <div class="prodTxt">
@@ -54,10 +54,10 @@
             </div>
         </div>
         <div class="prodBrand">
-            <img src="img/sub_product_brand01.jpg" alt="">
+            <img src="img/sub_product_brand01.jpg" alt="/">
             <div class="wrap">
                 <h3>BRAND STORY</h3>
-                <p>아무나 흉내낼 수 없는 최고의 니치 향수 프라고나르는 향수의 메카인 프랑스 프로방스 그라스(Grasse)를 가장 대표하는 세계 최대 향수 회사입니다.또한, 연간 100만 명 이상이 찾는 관광 명소인 5개의 향수 박물관과 미술 및 패션 박물관을 직접 운영하며 자체 공장에서 에센셜 오일을 추출, 조향, 제조하고 자체 유통에서만 한정 판매하는 유일무이한 향수 전문 브랜드입니다.</p>
+                <p>아무나 흉내낼 수 없는 최고의 니치 향수 프라고나르는 향수의 메카인 프랑스 프로방스 그라스(Grasse)를 가장 대표하는 세계 최대 향수 회사입니다. 또한, 연간 100만 명 이상이 찾는 관광 명소인 5개의 향수 박물관과 미술 및 패션 박물관을 직접 운영하며 자체 공장에서 에센셜 오일을 추출, 조향, 제조하고 자체 유통에서만 한정 판매하는 유일무이한 향수 전문 브랜드입니다.</p>
                 <p>1926년 로코코 미술을 대표하는 그라스 출신의 거장 ‘장 오노레 프라고나르’를 기려 회사 이름을 프라고나르로 명명하게 되면서 그라스의 자연과 프라고나르의 예술이 어우러진 향수로 자리잡게 되었습니다.</p>
                 <p>프랑스 프로방스 천연 에센셜 오일과 최상의 천연 원료로 만들어진 프리미엄 향수, 자연과 마음이 담긴 진정한 명품 ‘프라고나르’를 만나보세요.</p>
             </div>
@@ -67,35 +67,26 @@
                 <ul>
                     <li>
                        <a href="#">
-                           <span class="prodListImg">
-                               <img src="img/sub_product_list_img03.jpg" alt="">
-                           </span>
-                           <span class="prodListTxt">
-                               <p>fragonard</p>
-                               <p>프라고나르 몽 이모르뗄 비누<br>(fragonard Mon Immortelle soap)</p>
-                           </span>
+                           <div class="prodListImg">
+                               <img src="img/sub_product_list_img03.jpg" alt="프라고나르 몽 이모르뗄 비누">
+                           </div>
+                           <p class="prodListTxt">fragonard<strong>프라고나르 몽 이모르뗄 비누<br>(fragonard Mon Immortelle soap)</strong></p>
                        </a>
                     </li>
                     <li>
                        <a href="#">
-                           <span class="prodListImg">
-                           <img src="img/sub_product_list_img04.jpg" alt="">
-                           </span>
-                           <span class="prodListTxt">
-                               <p>fragonard</p>
-                               <p>프라고나르 몽 오랑지 비누<br>(fragonard Mon Oranger soap)</p>
-                           </span>
+                           <div class="prodListImg">
+                               <img src="img/sub_product_list_img04.jpg" alt="프라고나르 몽 오랑지 비누">
+                           </div>
+                           <p class="prodListTxt">fragonard<strong>프라고나르 몽 오랑지 비누<br>(fragonard Mon Oranger soap)</strong></p>
                        </a>
                     </li>
                     <li>
                        <a href="#">
-                           <span class="prodListImg">
-                           <img src="img/sub_product_list_img05.jpg" alt="">
-                           </span>
-                           <span class="prodListTxt">
-                               <p>fragonard</p>
-                               <p>프라고나르 몽 리스 비누<br>(fragonard Mon Lys soap)</p>
-                           </span>
+                           <div class="prodListImg">
+                               <img src="img/sub_product_list_img05.jpg" alt="프라고나르 몽 리스 비누">
+                           </div>
+                           <p class="prodListTxt">fragonard<strong>프라고나르 몽 리스 비누<br>(fragonard Mon Lys soap)</strong></p>
                        </a>
                     </li>
                 </ul>

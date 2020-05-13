@@ -4,9 +4,9 @@
             <div class="prodData">
                 <div class="prodImg">
                     <ul>
-                        <li><img src="img/sub_product_perfume00.jpg" alt=""></li>
-                        <li><img src="img/sub_product_perfume01.jpg" alt=""></li>
-                        <li><img src="img/sub_product_perfume02.jpg" alt=""></li>
+                        <li><img src="img/sub_product_perfume00.jpg" alt="펜할리곤스 로드 조지 edp"></li>
+                        <li><img src="img/sub_product_perfume01.jpg" alt="펜할리곤스 로드 조지 edp"></li>
+                        <li><img src="img/sub_product_perfume02.jpg" alt="펜할리곤스 로드 조지 edp"></li>
                     </ul>
                 </div>
                 <div class="prodTxt">
@@ -78,7 +78,7 @@
             </div>
         </div>
         <div class="prodBrand">
-            <img src="img/sub_product_brand00.jpg" alt="">
+            <img src="img/sub_product_brand00.jpg" alt="/">
             <div class="wrap">
                 <h3>BRAND STORY</h3>
                 <p>펜할리곤스가 보유한 왕실 조달 허가증(Royal Warrants of Appointment)은 영국 왕실이 최소 5년 이상 사용해온 제품 또는 생산자에게는 왕실 문장을 사용할 수 있는 권리는 신뢰의 상징입니다. 이에 따라 영국 기업은 물론, 세계적인 기업들도 쉽게 받을 수 없는 영예로운 증서 중 하나로 여겨지고 있습니다.</p>
@@ -91,35 +91,26 @@
                 <ul>
                     <li>
                        <a href="#">
-                           <span class="prodListImg">
-                               <img src="img/sub_product_list_img00.jpg" alt="">
-                           </span>
-                           <span class="prodListTxt">
-                               <p>penhaligon's</p>
-                               <p>펜할리곤스 레이디 블랑쉬 EDP<br>(the revenge of  lady blanche edp)</p>
-                           </span>
+                           <div class="prodListImg">
+                               <img src="img/sub_product_list_img00.jpg" alt="펜할리곤스 레이디 블랑쉬 EDP">
+                           </div>
+                           <p class="prodListTxt">penhaligon's<strong>펜할리곤스 레이디 블랑쉬 EDP<br>(the revenge of  lady blanche edp)</strong></p>
                        </a>
                     </li>
                     <li>
                        <a href="#">
-                           <span class="prodListImg">
-                           <img src="img/sub_product_list_img01.jpg" alt="">
-                           </span>
-                           <span class="prodListTxt">
-                               <p>penhaligon's</p>
-                               <p>펜할리곤스 더치스 로즈 EDP<br>(the coveted duchess rose)</p>
-                           </span>
+                           <div class="prodListImg">
+                               <img src="img/sub_product_list_img01.jpg" alt="펜할리곤스 더치스 로즈 EDP">
+                           </div>
+                           <p class="prodListTxt">penhaligon's<strong>펜할리곤스 더치스 로즈 EDP<br>(the coveted duchess rose)</strong></p>
                        </a>
                     </li>
                     <li>
                        <a href="#">
-                           <span class="prodListImg">
-                           <img src="img/sub_product_list_img02.jpg" alt="">
-                           </span>
-                           <span class="prodListTxt">
-                               <p>penhaligon's</p>
-                               <p>펜할리곤스 더 듀크 EDP<br>(much ado about the duke)</p>
-                           </span>
+                           <div class="prodListImg">
+                               <img src="img/sub_product_list_img02.jpg" alt="펜할리곤스 더 듀크 EDP">
+                           </div>
+                           <p class="prodListTxt">penhaligon's<strong>펜할리곤스 더 듀크 EDP<br>(much ado about the duke)</strong></p>
                        </a>
                     </li>
                 </ul>

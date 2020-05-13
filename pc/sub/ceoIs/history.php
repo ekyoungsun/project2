@@ -15,13 +15,6 @@
                 <div class="mL3"></div>
             </div>  
             <div class="wrap">
-<!--
-                <div class="cap"></div>
-                <div class="glass"></div>
-                <div class="perfIcon1"></div>
-                <div class="perfIcon2"></div>
-                <div class="timeIcon"></div>
--->
                 <div class="historyList">
                     <a href="#none" class="active">2016 ~ 2019</a>
                     <a href="#none">2010 ~ 2015</a>
